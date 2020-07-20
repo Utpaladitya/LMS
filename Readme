@@ -1,0 +1,14 @@
+Read me file to run lms project
+
+1. I have coppied reqired software(tomcat) and jdbc connector to google drive.
+2. Install tomcat software in your machine
+3. Copy jdbc connector file in lib folder of tomcat instalation folder.
+4. Create a new server in eclipse server tab
+5. Import project(lms.war) from code folder of google drive
+6. Download reposoitory.sql file from google drive's code folder.
+7. Run this script in MySql workbench to create database
+8. In this project I have created 2 web pages to test this project.
+9. Run a index.html file, it will ask for user id(lms) and password(lms)
+10 Then it will open another page just for testing wherein  we need to define all poosible use cases of this project.
+11 For your understanding to database connection there id DBInfo.java under src folder of the project.
+12. One servlet(login.java) also created in support of index.html, which also availabe in src folder of the project.
